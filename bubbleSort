@@ -4,9 +4,9 @@ def bubble_sort(myList):
 		i = 0
 		while i < n-1:
 			if myList[i] > myList[i+1]: 
-				key = myList[i]
+				key = myList[i]		# The next three lined are the switch.
 				myList[i] = myList[i+1]
 				myList[i+1] = key
 			i += 1
-		n = n-1
+		n = n-1		# Repeat the process but now on the list minus the final element (len = n-1). 
 	return myList
