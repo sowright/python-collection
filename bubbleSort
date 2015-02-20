@@ -1,6 +1,5 @@
 # bubble_sort takes a list as input and gives as output a new list consisting
 #   of the same elements but now in chronologically increasing order. 
-# new comment here
 
 def bubble_sort(myList):
 	n = len(myList)
